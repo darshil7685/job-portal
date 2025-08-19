@@ -1,0 +1,24 @@
+module.exports = {
+    // COMMON LOG
+    LOG_VALIDATE_MIDDLEWARE: 'VALIDATE_MIDDLEWARE',
+    LOG_JWT_MIDDLEWARE: 'JWT_MIDDLEWARE',
+    LOG_CONTROLLER: 'CONTROLLER',
+    LOG_SERVICE: 'SERVICE',
+    
+    
+    LOG_UTILITY_FUNC: 'UTILITY_FUNCTIONS:',
+    LOG_ENTER: "ENTER: ",
+    LOG_PARAM: "PARAM: ",
+    LOG_EXIT: "EXIT: ",
+    LOG_LEVEL_ERROR: "error", //0
+    LOG_LEVEL_WARN: "warn", //1
+    LOG_LEVEL_INFO: "info", //2
+    LOG_LEVEL_VERBOSE: "verbose", //3
+    LOG_LEVEL_DEBUG: "debug", //4
+    LOG_LEVEL_SILLY: "silly", //5
+    LOG_START: 'LOG_START',
+
+    LOG_SUCCESSFUL: "EXECUTE SUCCESSFULLY",
+
+
+ }

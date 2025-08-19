@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hirely-job-finder-applic-8cbe1",
+  "private_key_id": "6e137c60863aa84e8bd1698fa426c7048f068ff4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgitMhthis9mbt\nwmIpehU7F5ELW78ZTtsdsNJ6oYBU3UN6ESO/IllYDjq6Q9lhgAB6Vz3+52JtgLBV\nTuhaHpsVY5Iby4enFEJjfwbDOEft6GUB44LIhiK+dqWscV+6cyfaZsdt5XxGp1J0\nEde7wpW1msnhEcGeMKgzKcFOuVnTvJytcv//BRhHX/Q41W7T3t7IsZs3AQvQXFWH\nTG9Lstd7b0j5lWkr5ItwqV8/W113VZcQquqy7zmJ6v7HjCtBW4eL50ttqHFXyHIj\n+G9rkhnhNwzMTtVg+4BhSuQqvZURKcgzYJhc9ZTtaaJVgn2IGNrOf/eAAcHjPmny\nqPuy8FqrAgMBAAECggEAHjhTqv5cob5WPL5A/R7CfVef0XwJOmnaHDorPLNG9XKb\nH5C3YmTEXat8CZD5C/3s2RqwDFog8IzvZHeQjFpDhiCyobHLzLsnDhScwMXI4HNF\nBDh/52A8jQ7He/DxfKbtoxKCyuCOZrxbbIbpTapAxSkohEnz4OO23b6n6TpBuvXy\n9ZvW+R7u9qFrT8ZHsZBA7zJ8dbHzlH9TDqctQIWZhFHBYcYfyFtNPN6FioS5zskt\nNyJhwQjX3sdCENk5OD183Q+iT8rDU/yfhZ3dbQNFWsSLAnV17+BtOIVDdNDfymsR\nTRmLg7fOOtE2M9lPQ4r4ZBwOefvVvNu9R6L5bzCfWQKBgQDfmhvtwkpM5ZxnmA3X\n8ZXwSfj5XzQwp4ishXy0+OQkHRXqLSdVWTnXa7/qJa9pvC0J2P+Tt04+lXY9Wp+v\nmJDF9shPMYTBxa89HxC2H14vEBkVSFnNA7NmzuV/406Bml3f0sPJ5A0hecqYl9rQ\nxaF89wu9SR+s+kTGOyr/BPvk2QKBgQC3zbEuwCEwzZyJsA0A6qYYX1YZ5Yd1JYIw\nXn4qkv6iukMMR6bfd6uIAyHfPjWcO4Gd4oDf0dAL6ANPjMAddYAka6jkPMf47qP2\nGzHON7eRK33dI+43zja38qbiOmp3jXBznbKSiWYUypzJPoAW0sBUeH8ev8DKsu20\nX1MNBJH5IwKBgQCgV863TKAjTHRABVXICMHQsfsMOC0gxsLHlGG9FM3k58aTSxXt\nqjJEPEw/CA8l738MlMORld1SG7PSg24HaYxHqZQy1fuxSKVFW0WMlCnh7dVO4bcj\nwQehLbR9ZO8jGSNAIc+ssxCHdOLHUf3jwBTxm+abMhi43i77R+qpPVW04QKBgGz+\nhdZSSpxVIUGo610iyJHlXvqGWPhH4NbsAecfOe6ng4DxsGwN2+MQ8HIgwsu9odRN\nb9zJ35Rf5i6zKW2Oswll6kZGINNmOEaFw9gkxC9K2h1b5DSljV8xfnLi7yWr8wYs\neqtY3PbxW14fOPfPzAuLVN6YGSxaRIlUibxLfIB/AoGAb/2e33XScNRcTKX638Sc\ngBB5E9KcOoM4uL/hTGkNeHfh/Akk1TVm8nsCLcF0SBsYGw3an8wa3RrxMumg0tdJ\nWEF5KGKcJMoOCcgC20AWUjsCQaqQrREXTbQlPsP6j8uJPn6yCeHVz6eXQVbzBCQK\n4CDikjeG4iEhCuJMWFEn1oI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@hirely-job-finder-applic-8cbe1.iam.gserviceaccount.com",
+  "client_id": "118020433918111098321",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40hirely-job-finder-applic-8cbe1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
