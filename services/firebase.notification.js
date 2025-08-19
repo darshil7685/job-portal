@@ -1,12 +1,12 @@
-const admin = require("firebase-admin");
+// const admin = require("firebase-admin");
 // const serviceAccount = JSON.parse(process.env.FIREBASE);
-const serviceAccount = require("./firebase-admin.json"); 
+// const serviceAccount = require("./firebase-admin.json"); 
 const utility_func = require('../utilities/utility-functions')
 const logger = require('../utilities/services/logger.services');
 const axios= require('axios')
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+// });
 
 module.exports={
     sendNotification:sendNotification
