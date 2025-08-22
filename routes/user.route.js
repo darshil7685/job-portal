@@ -38,6 +38,7 @@ router.post('/logout/v1',userController.logout)
 router.post('/update/jobDetails/v1',userController.updateJobDetails)
 
 router.get('/ping/v1', (req, res) => {
+    console.log("Ping")
     res.status(200).json({messagae: "Server is running"})
 })
 
