@@ -16,23 +16,38 @@ app.use(express.urlencoded({ extended: true, limit: '150mb' }));
 // dbConnect()
 app.use('/hjfa', routes);
 
-app.listen(process.env.PORT, () => {
+// app.listen(process.env.PORT, () => {
 
-  figlet.text(`Hirely Job Finder application`, { horizontalLayout: 'default', verticalLayout: 'default', width: 240, whitespaceBreak: true }, function (err, data) {
-    if (err) {
-      console.log('Something went wrong...');
-      console.dir(err);
-      return;
-    }
+//   figlet.text(`Hirely Job Finder application`, { horizontalLayout: 'default', verticalLayout: 'default', width: 240, whitespaceBreak: true }, function (err, data) {
+//     if (err) {
+//       console.log('Something went wrong...');
+//       console.dir(err);
+//       return;
+//     }
+//     console.log(data);
+
+//     console.log(`Server is running on http://${process.env.HOST}:${process.env.PORT}.`);
+//     console.log(`-----------------------------------------------------------------------------------`);
+//     console.log(`Start Time  : ` + (new Date()).toUTCString());
+//     console.log(`Environment : ${process.env.NODE_ENV}`);
+//     console.log(`SERVER_PORT : ${process.env.PORT}`);
+//     console.log(`-----------------------------------------------------------------------------------`);
+//   });
+// });
+
+figlet.text(`Hirely Job Finder application`, { horizontalLayout: 'default', verticalLayout: 'default', width: 240 }, function (err, data) {
+  if (!err) {
     console.log(data);
-
-    console.log(`Server is running on http://${process.env.HOST}:${process.env.PORT}.`);
-    console.log(`-----------------------------------------------------------------------------------`);
-    console.log(`Start Time  : ` + (new Date()).toUTCString());
     console.log(`Environment : ${process.env.NODE_ENV}`);
-    console.log(`SERVER_PORT : ${process.env.PORT}`);
-    console.log(`-----------------------------------------------------------------------------------`);
-  });
+    console.log(`Start Time  : ${new Date().toUTCString()}`);
+  }
 });
+
+//vercel
+module.exports.config = {
+  api: {
+    bodyParser: false,
+  },
+};
 
 module.exports =  serverless(app)
