@@ -1,5 +1,6 @@
 require('./config/env_config')
 const express = require("express");
+const serverless = require("serverless-http");
 const app = express();
 const routes = require('./config/routes.js')
 const figlet = require('figlet');
@@ -34,4 +35,4 @@ app.listen(process.env.PORT, () => {
   });
 });
 
-module.exports =  app
+module.exports =  serverless(app)
