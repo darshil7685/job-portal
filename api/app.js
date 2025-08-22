@@ -1,10 +1,10 @@
-require('./config/env_config')
+require('../config/env_config.js')
 const express = require("express");
 const serverless = require("serverless-http");
 const app = express();
-const routes = require('./config/routes.js')
+const routes = require('../config/routes.js')
 const figlet = require('figlet');
-const {dbConnect} =require('./utilities/services/db.js')
+const {dbConnect} =require('../utilities/services/db.js')
 const cors = require('cors');
 const path = require('path')
 app.use(cors());
