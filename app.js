@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true, limit: '150mb' }));
 dbConnect()
 app.use('/hjfa', routes);
 
-let server = app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT, () => {
 
   figlet.text(`Hirely Job Finder application`, { horizontalLayout: 'default', verticalLayout: 'default', width: 240, whitespaceBreak: true }, function (err, data) {
     if (err) {
@@ -34,4 +34,4 @@ let server = app.listen(process.env.PORT, () => {
   });
 });
 
-module.exports = { app, server }
+module.exports =  app
